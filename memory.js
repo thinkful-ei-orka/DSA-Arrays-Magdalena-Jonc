@@ -13,7 +13,9 @@ class Memory {
     let start = this.head;
     //Takes the arg size and adds to the start position
     this.head += size;
+
     //Returns the full block of allocated memory
+    // console.log(start);
     return start;
   }
 
